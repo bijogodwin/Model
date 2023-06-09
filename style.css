@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./Images/hero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  color: black;
+}
+.container {
+  cursor: pointer;
+  margin-top: 10%;
+  align-self: center;
+  text-align: center;
+  padding: 70px 50px;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(8, 122, 122);
+  border-radius: 11px;
+  position: relative;
+}
+.main-btn {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 5px 13px;
+  border-radius: 9px;
+  background-color: rgba(243, 247, 250, 0);
+  color: black;
+  border-color: black;
+}
+/* Model container */
+
+.model-container {
+  position: absolute;
+  top: -275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: aquamarine;
+  padding-bottom: 10px;
+  height: 250px;
+  width: 400px;
+  position: relative;
+  z-index: -1;
+}
+
+.x-btn {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 25px;
+}
+.x-btn :hover {
+  color: red;
+}
+.open {
+  visibility: visible;
+  z-index: 1;
+}
+.close {
+  visibility: hidden;
+}
